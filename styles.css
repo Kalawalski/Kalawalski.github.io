@@ -1,0 +1,80 @@
+header{
+    text-align: center;
+    font-family: 'Protest Revolution';
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+body {
+    background-image: url(./Images/parchment.jpg)  
+}
+
+.leftside {
+    box-sizing: border-box;
+    display: inline-table;
+    width: 49%;
+}
+
+.rightside {
+    box-sizing: border-box;
+    display: inline-table;
+    position: relative;
+    width: 49%;
+    float: inline-end;
+}
+
+.table1 {
+    border: 15px double rgb(85, 49, 1);
+    box-sizing: border-box;
+    position: relative;
+    display: table;
+    margin: auto;
+}
+
+.table2 {
+    border: 15px double rgb(85, 49, 1);
+    box-sizing: border-box;
+    position: relative;
+    display: table;
+    margin: auto;
+}
+
+.tableheader {
+    font-family: Philosopher;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 10px;
+    border-top: 5px outset rgb(85, 49, 1);
+    border-bottom: 5px outset rgb(85, 49, 1);
+}
+
+.tabletitle {
+    text-align: center;
+    font-family: 'Protest Revolution';
+    font-size: 40px;
+}
+
+.leftbox {
+    border-left: 5px outset rgb(85, 49, 1);
+}
+
+.rightbox {
+    border-right: 5px outset rgb(85, 49, 1)
+}
+
+td {
+    font-family: Philosopher;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+h4 {
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    margin-top: 200px;
+    width: 100%;
+}
