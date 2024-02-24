@@ -1,80 +1,194 @@
-header{
-    text-align: center;
-    font-family: 'Protest Revolution';
-    letter-spacing: 5px;
-    font-size: 40px;
+* {
+    box-sizing: border-box;
+    position: relative;
+    padding: 0px;
 }
 
 body {
-    background-image: url(parchment.jpg)  
-}
-
-.leftside {
-    box-sizing: border-box;
-    display: inline-table;
-    width: 49%;
-}
-
-.rightside {
-    box-sizing: border-box;
-    display: inline-table;
-    position: relative;
-    width: 49%;
-    float: inline-end;
-}
-
-.table1 {
-    border: 15px double rgb(85, 49, 1);
-    box-sizing: border-box;
-    position: relative;
-    display: table;
-    margin: auto;
-}
-
-.table2 {
-    border: 15px double rgb(85, 49, 1);
-    box-sizing: border-box;
-    position: relative;
-    display: table;
-    margin: auto;
-}
-
-.tableheader {
-    font-family: Philosopher;
-    font-weight: bold;
-    font-size: 35px;
-    padding: 10px;
-    border-top: 5px outset rgb(85, 49, 1);
-    border-bottom: 5px outset rgb(85, 49, 1);
-}
-
-.tabletitle {
-    text-align: center;
-    font-family: 'Protest Revolution';
-    font-size: 40px;
-}
-
-.leftbox {
-    border-left: 5px outset rgb(85, 49, 1);
-}
-
-.rightbox {
-    border-right: 5px outset rgb(85, 49, 1)
+    background-image: url(https://wallpapertag.com/wallpaper/full/5/0/9/350850-website-background-1920x1234-for-android-50.jpg);   
 }
 
 td {
-    font-family: Philosopher;
+    margin: auto;
     text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 10px;
+    /*border: 1px solid red;*/
 }
 
-h4 {
+h1 {
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 60px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.font1 {
+    font-family: "Protest Revolution", sans-serif;
+}
+
+.font2 {
+    font-family: "Protest Riot", sans-serif;
+}
+
+.font3 {
+    font-family: overlock, sans-serif;
+    font-size: larger;
+}
+
+.font4 {
+    font-family: Merienda, sans-serif;
+}
+
+.titlebox h1{
+    font-size: 75px;
     text-align: center;
-    box-sizing: border-box;
-    position: relative;
+}
+.layout {
+    max-width: 100%;
+    max-height: 100%;
+    margin:auto;
+}
+
+.topleft {
+    float: left;
+}
+
+.topright {
+    float: right;
+    margin-left: 80px;
+}
+
+.bottomleft {
+    float: left;
+}
+
+.bottomright {
+    float: right;
+}
+
+.box{ 
+    width: 33%;
+    height: 50%;
+    max-width: 33%;
+    max-height: 45%;
+}
+
+.buttonbox td {
+    margin-left: 165px;
+    margin-bottom: 140px;
+}
+
+.resources td {
+    margin-left: 165px;
+    margin-top: 80px;
+}
+
+
+.bigbox .topright {
+    float:right;
+}
+
+.bigbox td{
+    text-align: center;
+    height: 75px;
+    width: 150px;
+    border-radius: 50px;
+    display: inline-block;
     margin: auto;
-    margin-top: 200px;
-    width: 100%;
+    margin-top: 25px;
+    margin-left: 175px;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+#colorbox {
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 60px;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.resources h1 {
+    margin-top: -20px;
+}
+
+button {
+    font-family: "Protest Riot", sans-serif;
+    margin-left: -85px;
+    margin-bottom: -20px;
+    height: 75px;
+    width: 150px;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #17D89B;
+    border: 2px solid #0E8B64;
+}
+
+.button1:hover {
+    font-size: 25px;
+    background-color: #12b883;
+}
+
+.button1:active {
+    font-size: 20px;
+    background-color: #17D89B;
+}
+
+.button2 {
+    position: fixed;
+    background-color: #378AEA;
+    border: 2px solid #34bafd;
+    border-radius: 50px;
+}
+
+.button2:hover {
+    font-size: 25px;
+    background-color: #91DBFF;
+}
+
+.button2:active {
+    position: fixed;
+    font-size: 20px;
+    background-color: #378AEA;
+}
+
+.button3 {
+    position: fixed;
+    background-color: #04D6DE;
+    border: 2px solid #309696;
+    border-radius: 50px;
+    box-shadow: 3px 5px;
+}
+
+.button3:active {
+    position: absolute;
+    background-color: #309696;
+    font-size: 20px;
+    box-shadow: 0px 0px;
+    margin-top: 3px;
+}
+
+.button4 {
+    position: fixed;
+    background-color: #D6C18C;
+    border: 2px solid #664f23;
+    box-shadow: 3px 5px;
+}
+
+.button4:active {
+    position: fixed;
+    background-color: #8a7c5a;
+    font-size: 20px;
+    box-shadow: 0px 0px;
+    margin-top: 3px;
 }
