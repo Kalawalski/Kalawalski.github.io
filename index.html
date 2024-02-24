@@ -1,90 +1,142 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <title>Universal Cheatsheet</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Protest+Guerrilla&family=Protest+Revolution&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css" rel="stylesheet type="text/css">
-    </head>
-    <body>
-        <!-------------------Title------------------------------------->
-        <header>
-            <h1>Universal HTML & CSS Cheatsheat</h1>
-            <h6>(Work in progress)</h6>
-        </header>
-        <main>
-            <!---------------------HTML TABLE DATA------------------------>
-        <div class="leftside">
-            <table class="table1">
-                <tr>
-                    <td class="tabletitle" colspan="3">Html</td>
-                </tr>
-                <tr>
-                    <td class="tableheader leftbox">Tag</td>
-                    <td class="tableheader">Term</td>
-                    <td class="tableheader rightbox">Definition</td>
-                </tr>
-                <tr>
-                    <td>h1</td>
-                    <td>Header</td>
-                    <td>HTML can use six different levels of heading elements.</td>
-                </tr>
-                <tr>
-                    <td>ol, ul, li</td>
-                    <td>Ordered, Unordered, List items</td>
-                    <td>Used to make numbered, or bullet lists</td>
-                </tr>
-                <tr>
-                    <td>video src=""</td>
-                    <td>Video</td>
-                    <td>Embeds a media player for video playback</td>
-                </tr>
-                <tr>
-                    <td>img src=""</td>
-                    <td>Image</td>
-                    <td>Embeds an image</td>
-                </tr>
-            </table>
-        </div>
-        <!----------------------------------CSS TABLE DATA------------------------------>
-        <div class="rightside">
-            <table class="table2">
-                <tr>
-                    <td class="tabletitle" colspan="3">CSS</td>
-                </tr>
-                <tr>
-                    <td class="tableheader leftbox">Tag</td>
-                    <td class="tableheader">Term</td>
-                    <td class="tableheader rightbox">Definition</td>
-                </tr>
-                <tr>
-                    <td>h1, h2 {}</td>
-                    <td>Groups</td>
-                    <td>Matches multiple selectors to the same CSS rule using commas and spaces</td>
-                </tr>
-                <tr>
-                    <td>selector.class{}<br>class.class{}</td>
-                    <td>Chaining Selectors</td>
-                    <td>CSS selectors can be chained so that rule sets only apply to those that match all criteria.</td>
-                </tr>
-                <tr>
-                    <td>background-image: url(./localpath);</td>
-                    <td>Resource URLs</td>
-                    <td>The url() function is used to wrap resource URLs such as background-image or video src=""</td>
-                </tr>
-                <tr>
-                    <td>link href="./path/to/stylesheet/style.css" rel="stylesheet" type="text/css"</td>
-                    <td>Link Elements</td>
-                    <td>The link element is used to link HTML documents to external resources like CSS files.</td>
-                </tr>
-            </table>
-        </div>    
-        </main>
-        <!---------------------------Footer---------------------------------->
-        <footer>
-            <h4><em>Product of Kalawalski Enterprises</em></h4>
-        </footer>
-    </body>
+<head>
+    <title>Design System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Merienda:wght@300..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Protest+Revolution&family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Program Files (x86)\CodeAC\StyleSheet\Resources\stylesheet.css">
+</head>
+<body>
+    <nav>
+
+    </nav>
+    <main>
+        <table class="layout">
+            <tr><!------------------------------------------------Font Box----------------------->
+                <td class="box">
+                    <h1>Fonts</h1>
+                    <table>
+                    <tr>
+                        <td class="topleft font1">
+                            <h2>Protest Revolution // Titles</h2>
+                            <h3><i>Protest Revolution // Subtitles</i></h3>
+                            <h3><b>Protest Revolution // Footer Title</b></h3>
+                        </td>
+                        <td class="topright font2">
+                            <h2>Protest Riot // Sections</h2>
+                            <h3><i>Protest Riot // Articles</i></h3>
+                            <h3><b>Protest Riot // Comments</b></h3>
+                        </td>
+                    </tr>    
+                    <tr>
+                        <td class="bottomleft font3">
+                            <h2>Overlock // Paragraphs </h2>
+                            <h3><i>Overlock</i></h3>
+                            <h3><b>Overlock</b></h3>
+                        </td>
+                        <td class="bottomright font4">
+                            <h2>Merienda // Captions</h2>
+                            <h3><i>Merienda</i></h3>
+                            <h3><b>Merienda</b></h3>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+                <!------------------------------------------------Title Box--------------------->
+                <td class="box titlebox">
+                    <h1><i>Design System<br>+<br>Style Guide</i></h1>
+                    <h6 class="font4">Product of Kalawalski Enterprises</h6>
+                </td>
+                <!-------------------------------------------------Button Box-------------------->
+                <td class="box buttonbox">
+                    <h1>Buttons</h1>
+                    <table>
+                        <tr>
+                            <td class="topleft">
+                                <button class="button1">Button 1</button>
+                            </td>
+                            <td class="topright">
+                                <button class="button2">Button 2</button>
+                            </td>
+                        </tr>    
+                        <tr>
+                            <td class="bottomleft">
+                                <button class="button3">Button 3</button>
+                            </td>
+                            <td class="bottomright">
+                                <button class="button4">Button 4</button>
+                            </td>
+                        </tr>
+                        </table>
+                </td>
+            </tr>
+            <!-------------------------------------------------Color Box-------------------------->
+            <tr>
+                <td colspan="2" class="bigbox">
+                  <table>
+                    <tr>
+                        <td class="topleft" style="background-color: #04D6DE;">
+                            <p>Teal<br>#04D6DE</p>
+                        </td>
+                        <td style="background-color: #17D89B;"> 
+                            <p>Green<br>#17D89B</p>
+                        </td>
+                        <td class="topright" style="background-color: #0E8B64;">
+                            <p>Dark Green<br>#0E8B64</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #309696;">
+                            <p>Dark Teal<br>#309696</p>                        
+                        </td>
+                        <td class="colors" id="colorbox">
+                            <p>Colors</p>
+                        </td>
+                        <td style="background-color: #8a7c5a;">
+                            <p>Brown<br>#8a7c5a</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bottomleft" style="background-color: #378AEA;">
+                            <p>Blue<br>#378AEA</p> 
+                        </td>
+                        <td style="background-color: #34bafd;">
+                            <p>Light Blue<br>#34bafd</p>
+                        </td>
+                        <td class="bottomright" style="background-color: #D6C18C;">
+                            <p>Tan<br>#D6C18C</p>
+                        </td>
+                    </tr>
+                  </table>  
+                </td>
+                <!-------------------------------------------------Misc Box-------------------->
+                <td class="box resources">
+                    <h1>Resources and Links</h1>
+                    <table>
+                        <tr>
+                            <td class="topleft">
+                                Misc 1
+                            </td>
+                            <td class="topright">
+                                Misc 2
+                            </td>
+                        </tr>    
+                        <tr>
+                            <td class="bottomleft">
+                                Misc 3
+                            </td>
+                            <td class="bottomright">
+                                Misc 4
+                            </td>
+                        </tr>
+                        </table>
+                </td>
+            </tr>
+        </table>       
+    </main>
+    <footer>
+        
+    </footer>
+</body>
 </html>
