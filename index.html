@@ -1,133 +1,94 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Design System</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Merienda:wght@300..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Protest+Revolution&family=Protest+Riot&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
+    <head>
+        <title>Tea Cozy</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!----------------------------------Banner------------------------------------------>
+        <header> 
+            <image>
+                <img src="./Resources/Images/logo.png" class="logoimg">
+            </image>          
+            <nav>
+                <a href="#">Mission</a>
+                <a href="#">Featured Tea</a>
+                <a href="#" style="margin-right: 20px;">Locations</a>
+            </nav>
+        </header>
+        <!---------------------------------------Our Mission---------------------------------->
+        <main>
+            <div class="banner">
+                <div class="words">
+                    <h1>Our Mission</h1>
+                    <h>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+                </div>
+            </div>
+            <br>
+            <br>
+             <!-------------------------------------Tea of the Month----------------------->
+            <br>
+            <div class="section1">
+                <div class="words">
+                    <h2>Tea of the Month</h2>
+                    <h4>What's Steeping at the Tea Cozy?</h4>
+                </div>
+                <div class="variants">
+                    <div>
+                    <image>
+                        <img src="./Resources/Images/berryblitz.jpg" class="sec1img">
+                            <figcaption><h4>Full Berry Blitz Tea</h4></figcaption>
+                    </image>
+                    </div>
+                    <div>
+                    <image>
+                        <img src="./Resources/Images/rum.jpg" class="sec1img">
+                            <figcaption><h4>Spiced Rum Tea</h4></figcaption>
+                    </image>
+                    </div>
+                    <div>
+                    <image>
+                        <img src="./Resources/Images/donut.jpg" class="sec1img">
+                            <figcaption><h4>Seasonal Donuts</h4></figcaption>
+                    </image>
+                    </div>
+                    <div>
+                    <image>
+                        <img src="./Resources/Images/myrtle.jpg" class="sec1img">
+                            <figcaption><h4>Myrtle Ave Tea</h4></figcaption>
+                    </image>
+                    </div>
+                    <div>
+                    <image>
+                        <img src="./Resources/Images/bizzare.jpg" class="sec1img">
+                            <figcaption><h4>Bedford Bizarre Tea</h4></figcaption>
+                    </image>
+                    </div>
+                </div>
+                <!---------------------------------------Locations------------------------------->
+            </div>
+            <div class="locations" style="background-image: url(./Resources/Images/locations.jpg);">
+                    <h1 class="loctext">Locations</h1>
+                    <div class="box">
+                        <h3>Downtown<br>384 West 4th Street<br>Suite 108<br>Portland, Maine</h3>
+                    </div>
+                    <div class="box">
+                        <h3>East Bayside<br>3433 Phisherman's Avenue<br>(Northwest Corner)<br>Portland, Maine</h3>
+                    </div>
+                    <div class="box">
+                        <h3>Oakdale<br>515 Crescent Avenue<br>Second Floor<br>Portland, Maine</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <h1>The Tea Cozy</h1>
+                <h5>contact@theteacozy.com</h5>
+                <h5>917-555-8904</h5>
+           </div>
+        </main>
+        <footer>
+            <p>copyright Kalawalski Enterprises</p>    
+        </footer>
+    </body>
 
-    </nav>
-    <main>
-        <table class="layout">
-            <tr><!------------------------------------------------Font Box----------------------->
-                <td class="box">
-                    <h1>Fonts</h1>
-                    <table>
-                    <tr>
-                        <td class="topleft font1">
-                            <h2>Protest Revolution // Titles</h2>
-                            <h3><i>Protest Revolution // Subtitles</i></h3>
-                            <h3><b>Protest Revolution // Footer Title</b></h3>
-                        </td>
-                        <td class="topright font2">
-                            <h2>Protest Riot // Sections</h2>
-                            <h3><i>Protest Riot // Articles</i></h3>
-                            <h3><b>Protest Riot // Comments</b></h3>
-                        </td>
-                    </tr>    
-                    <tr>
-                        <td class="bottomleft font3">
-                            <h2>Overlock // Paragraphs </h2>
-                            <h3><i>Overlock</i></h3>
-                            <h3><b>Overlock</b></h3>
-                        </td>
-                        <td class="bottomright font4" style="padding-top: 8px;">
-                            <h2>Merienda // Captions</h2>
-                            <h3><i>Merienda</i></h3>
-                            <h3><b>Merienda</b></h3>
-                        </td>
-                    </tr>
-                    </table>
-                </td>
-                <!------------------------------------------------Title Box--------------------->
-                <td class="box titlebox">
-                    <h1><i>Design System<br>+<br>Style Guide</i></h1>
-                    <h6 class="font4">Product of Kalawalski Enterprises</h6>
-                </td>
-                <!-------------------------------------------------Button Box-------------------->
-                <td class="box buttonbox">
-                    <h1>Buttons</h1>
-                    <table>
-                        <tr>
-                            <td class="topleft">
-                                <button class="button1">Button 1</button>
-                            </td>
-                            <td class="topright">
-                                <button class="button2">Button 2</button>
-                            </td>
-                        </tr>    
-                        <tr>
-                            <td class="bottomleft">
-                                <button class="button3">Button 3</button>
-                            </td>
-                            <td class="bottomright"">
-                                <button class="button4">Button 4</button>
-                            </td>
-                        </tr>
-                        </table>
-                </td>
-            </tr>
-            <!-------------------------------------------------Color Box-------------------------->
-            <tr>
-                <td colspan="2" class="bigbox">
-                  <table>
-                    <tr>
-                        <td class="topleft" style="background-color: #04D6DE;">
-                            <p>Teal<br>#04D6DE</p>
-                        </td>
-                        <td style="background-color: #17D89B;"> 
-                            <p>Green<br>#17D89B</p>
-                        </td>
-                        <td class="topright" style="background-color: #0E8B64;">
-                            <p>Dark Green<br>#0E8B64</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="background-color: #309696;">
-                            <p>Dark Teal<br>#309696</p>                        
-                        </td>
-                        <td class="colors" id="colorbox">
-                            <p>Colors</p>
-                        </td>
-                        <td style="background-color: #8a7c5a;">
-                            <p>Brown<br>#8a7c5a</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="bottomleft" style="background-color: #378AEA;">
-                            <p>Blue<br>#378AEA</p> 
-                        </td>
-                        <td style="background-color: #34bafd;">
-                            <p>Light Blue<br>#34bafd</p>
-                        </td>
-                        <td class="bottomright" style="background-color: #D6C18C;">
-                            <p>Tan<br>#D6C18C</p>
-                        </td>
-                    </tr>
-                  </table>  
-                </td>
-                <!-------------------------------------------------Misc Box-------------------->
-                <td class="box resources">
-                    <h1>Reference Links</h1>
-                    <ul style="list-style-type: none;">
-                        <li class="font3"><a href="https://developer.mozilla.org/en-US/"><button class="button4">MDN Webdocs</button></a></li>
-                        <br>
-                        <li class="font3"><a href="https://fonts.google.com"><button class="button4">Google Fonts</button></a></li>
-                        <br>
-                        <li class="font3"><a href="https://codeacademy.com"><button class="button4">Code Academy</button></a></li>
-                        <br>
-                        <li class="font3"><a href="https://github.com/Kalawalski"><button class="button4">Kalawalski's Github</button></a></li>
-                    </ul>
-                </td>
-            </tr>
-        </table>       
-    </main>
-    <footer>
-        
-    </footer>
-</body>
 </html>
