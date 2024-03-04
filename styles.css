@@ -38,7 +38,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
     justify-content: center;
+    justify-items: center;
 }
 
 figcaption {
@@ -61,6 +63,10 @@ footer p{
     text-align: left;
     font-weight: bold;
     opacity: 0.9;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
 }
 
 .logoimg {
@@ -97,7 +103,9 @@ footer p{
     flex-flow: row wrap;
     width: 1000px;
     justify-content: center;
+    justify-items: center;
     align-content: center;
+    align-items: center;
 }
 
 .variants {
@@ -105,6 +113,10 @@ footer p{
     flex-flow: row wrap;
     flex-shrink: 2;
     justify-content: space-around;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
 }
 .sec1img{
     width: 300px;
