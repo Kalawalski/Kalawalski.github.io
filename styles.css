@@ -110,16 +110,16 @@ footer p{
     align-items: center;
 }
 
-.variants {
-    display: inline-flex;
-    flex-flow: row wrap;
-    flex-shrink: 2;
-    justify-content: space-around;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
-}
+ .variants {
+     display: inline-flex;
+     flex-flow: row wrap;
+     flex-shrink: 2;
+     justify-content: space-around;
+     justify-items: center;
+     align-content: center;
+     align-items: center;
+     margin: auto;
+ }
 .sec1img{
     width: 300px;
     height: 200px;
