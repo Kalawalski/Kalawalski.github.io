@@ -41,6 +41,8 @@ main {
     align-content: center;
     justify-content: center;
     justify-items: center;
+    width: 1200px;
+    margin: auto;
 }
 
 figcaption {
