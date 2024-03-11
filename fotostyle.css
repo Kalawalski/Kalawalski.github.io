@@ -1,0 +1,277 @@
+* {
+  align-items: center;
+  flex-shrink: 1;
+  flex-flow: wrap;
+  margin: 0;
+  align-content: center;
+}
+html {
+  font-size: 16px;
+}
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 5.25rem;
+  background-color: white;
+  border-bottom: 1px solid #979797;
+  opacity: 1;
+  z-index: 10;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 3;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  margin-left: 1.875rem;
+  font-family: 'Roboto mono';
+  color: #4a4a4a;
+  font-size: 1.5rem;
+}
+
+.links {
+  display: inline-flex;
+  flex-shrink: 3;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Roboto';
+}
+
+.sec1img {
+  display: flex;
+  height: 1.5rem;
+  margin-right: 1.875rem;
+  margin-left: -1.25rem;
+}
+
+.links a {
+  margin: 0 1.875rem;
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  position: relative;
+  height: 43.75rem;
+  width: 43.75rem;
+  background-color: white;
+  text-align: center;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  position: relative;
+  height: 61rem;
+  background-image: url(./images/banner-landingpage.jpg);
+  background-size: cover;
+}
+
+.section1 .box {
+  display: flexbox;
+  flex-flow: column;
+  background-color: #9dc20a;
+  color: white;
+  align-content: center;
+  width: 40%;
+  height: 47%;
+  margin-left: 8%;
+  border: 1px solid #979797;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  line-height: 1.6;
+  min-width: 31.8125rem;
+
+}
+
+.section1 h2 {
+  font-family: 'Damion';
+  font-size: 3rem;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-top: 0.8rem;
+}
+
+.section1 h1 {
+  font-family: 'Rubik';
+  font-size: 3.5rem;
+  font-weight: lighter;
+  letter-spacing: 0.25rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+.bannertxt {
+  display: flex;
+  text-align: center;
+  font-size: 1.45rem;
+  width: 65%;
+}
+
+.waitlist {
+  width: 29rem;
+  height: 4rem;
+  color: white;
+  background-color: #4a4a4a;
+  border-radius: 0.25rem;
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
+  font-family: 'Roboto';
+  font-size: 1.45rem;
+}
+
+.waitlist:hover {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.waitlist:active {
+  cursor: pointer;
+  background-color: #313131;
+  font-size: 1.45rem;
+}
+
+.section2 {
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  height: 53rem;
+  background-color: lightgray;
+}
+
+.boxh1 {
+  color: #4a4a4a;
+  font-size: 2.25rem;
+  font-family: 'Roboto';
+  font-weight: bold;
+  line-height: 1.4;
+  margin-top: 2.5rem;
+}
+
+.boxh3 {
+  color: #4a4a4a;
+  font-size: 1.05rem;
+  font-family: 'Roboto';
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.section2 .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sec2img {
+  display: flex;
+  width: 90%;
+  height: 65%;
+  min-width: 300px;
+  margin-top: 32px;
+}
+
+.section3 {
+  display: flex;
+  width: 100%;
+  flex-direction: column wrap;
+  justify-content: space-around;
+  background-color: darkslategray;
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+.section3 h1 {
+  margin: auto;
+  color: white;
+  opacity: 1;
+  font-size: 2.25rem;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 6rem;
+  line-height: 1.6;
+}
+
+.section3 h3 {
+  position: relative;
+  color: white;
+  width: 100%;
+  font-size: 1rem;
+  font-family: 'Roboto';
+  font-weight: 300;
+  opacity: 0.9;
+  line-height: 1.2;
+  padding-bottom: 5rem;
+}
+
+ .sec3img {
+  display: inline-flexbox;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  width: 20%;
+  height: auto;
+ }
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 12rem;
+  background-color: lightgray;
+}
+
+.section4 p {
+  display: inline-flex;
+  position: relative;
+  color: #4a4a4a;
+  font-size: 2rem;
+  font-family: Palatino;
+  line-height: 1.1;
+}
+
+.sec4img {
+  display: inline-flex;
+  margin-left: 1.875rem;
+}
+footer {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  height: 4rem;
+  background-color: #9b9b9b;
+}
+
+.footnote1 {
+  position: absolute;
+  align-content: center;
+  margin-left: 1.875rem;
+  color: white;
+  font-size: 0.75rem;
+  font-family: Roboto;
+}
+
+.footnote2 {
+  display: inline-flex;
+  align-content: center;
+  padding-right: 1.875rem;
+  width: 100%;
+  justify-content: flex-end;
+  color: white;
+  font-size: 0.75rem;
+  font-family: Roboto;
+}
