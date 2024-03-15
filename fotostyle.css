@@ -33,6 +33,10 @@ nav {
   align-content: center;
 }
 
+.mobile {
+  display: none;
+}
+
 .logo {
   display: flex;
   position: absolute;
@@ -90,7 +94,7 @@ nav {
   flex-direction: row;
   justify-items: center;
   position: relative;
-  height: 61rem;
+  height: 70rem;
   background-image: url(./images/banner-landingpage.jpg);
   background-size: cover;
 }
