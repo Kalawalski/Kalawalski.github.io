@@ -1,0 +1,171 @@
+@media only screen and (max-width: 480px) {
+
+    .mobile {
+        display: flex;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    * {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+ /*                    NAV                 */
+ html {
+    max-width: 100%;
+    background-color: lightgray;
+ }
+
+ nav {
+    width: 100%;
+    position: static;
+}
+
+header {
+    display: static;
+    height: 3.5rem;
+    width: 100%;
+}
+
+.join {
+    display: inline-block;
+    margin-right: 2rem;
+}
+ .links {
+    width: 100%;
+    justify-content: space-between;
+    align-content: space-between;
+ }
+
+ /*                Section 1             */
+
+ .section1{
+    margin-top: -0.2rem;
+    background-color: lightgrey;
+    height: 30rem;
+    display: flex;
+    position: relative;
+    background-image: none;
+    background-color: transparent;
+    align-content: flex-start;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+ .section1 .box {
+    border: 1px solid red;
+    padding-bottom: 45rem;
+    margin: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: -50rem 3rem;
+    background-image: url(./images/banner-landingpage.jpg);
+    background-color: transparent;
+}
+
+.section1 .box h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 12.5rem;
+    font-size: 2.8rem;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.section1 .box h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.bannertxt {
+    display: none;
+}
+
+.waitlist {
+    display: none;
+}
+
+.section1 {
+    background-color: lightgrey;
+    width: 30rem;
+    display: flex;
+    position: relative;
+    background-image: none;
+    background-color: transparent;
+}
+
+.section2 {
+    width: 34rem;
+    margin-bottom: -1rem;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.section2 .box {
+    width: 100%;
+    height: auto;
+}
+
+.section2 .mobile {
+    background-color: lightgray;
+}
+
+.boxh1 {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.boxh3 {
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.section3 {
+    padding-bottom: 0.15rem;
+}
+
+.section3 h1 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-top: 3rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section3 h3 {
+    padding-bottom: 2rem;
+}
+
+.sec3img {
+    width: 33%;
+}
+
+.section4 {
+    height:fit-content;
+}
+
+.section4 p {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    line-height: 1.4;
+}
+
+.section4 img {
+    padding-bottom: 1rem;
+}
+
+.footnote1 , .footnote2 {
+    font-size: 9px;
+}
+}
